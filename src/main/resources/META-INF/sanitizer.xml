@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sanitizer>
+    <switch dpid="1">
+        <match-reject>
+            <dl_vlan>-1</dl_vlan>
+        </match-reject>
+        <action-reject>
+            <set_vlan>-1</set_vlan>
+        </action-reject>
+    </switch>
+</sanitizer>
